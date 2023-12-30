@@ -1,0 +1,13 @@
+Test Results:
+Original 2D Array:
+[[1 2 3]
+ [4 5 6]
+ [7 8 9]]
+
+Sum of all elements: 45
+Mean of all elements: 5.0
+
+Transposed Array:
+[[1 4 7]
+ [2 5 8]
+ [3 6 9]]
