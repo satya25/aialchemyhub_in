@@ -1,0 +1,39 @@
+<!--
+    File            :   ./templates/top-nav-bar.html
+    Description     :   Template for the top navigation bar of the Flask CRUD application.
+    Author          :   Satya Prakash Nigam <spnigam25@yahoo.com>
+    Created Date    :   June 1, 2024
+    Modified Date   :   June 1, 2024
+    Dependencies    :   Bootstrap CSS/JS, Font Awesome CSS
+    Notes           :   This template contains the navigation links for navigating through the application.
+-->
+<nav class="navbar navbar-expand-sm bg-primary">
+	<div class="container-fluid">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="{{ url_for('index') }}"><span style="color:white;">Home</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="{{ url_for('show_records') }}"><span style="color:white;">Show Records</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="{{ url_for('add_record') }}"><span style="color:white;">Add Record</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="{{ url_for('dashboard') }}"><span style="color:white;">Dashboard</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="{{ url_for('dashboard2') }}"><span style="color:white;">Dashboard 2</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="{{ url_for('dashboard3') }}"><span style="color:white;">Dashboard 3</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="{{ url_for('dashboard4') }}"><span style="color:white;">Dashboard 4</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="{{ url_for('data_generator') }}"><span style="color:white;">Data Generator</span></a>
+			</li>
+		</ul>
+	</div>
+</nav>
