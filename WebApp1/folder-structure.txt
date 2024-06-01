@@ -1,7 +1,0 @@
-.
-|-- reports
-|-- static
-|   `-- images
-`-- templates
-
-4 directories
